@@ -15,14 +15,14 @@ Page({
     login: function() {
         if (this.data.logged) return
 
-        util.showBusy('正在登录')
+        util.showBusy('正在登录ing')
         var that = this
 
         // 调用登录接口
         qcloud.login({
             success(result) {
                 if (result) {
-                    util.showSuccess('登录成功');
+                    util.showSuccess('登录成功le ');
                     that.setData({
                         userInfo: result,
                         logged: true

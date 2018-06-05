@@ -28,6 +28,7 @@
             ></image>
         </view>
     </view>
+    
     <view class="uploader">
         <view class="uploader-text" bindtap="doUpload">
             <text>Rate</text>
